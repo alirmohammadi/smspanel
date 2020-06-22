@@ -1,0 +1,15 @@
+{
+    "name": "alirmohammadi/smspanel",
+    "description": "Composer package for using smspanel in Laravel 7",
+    "type": "library",
+    "require": {
+        "laravel/framework": "7.x"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alireza",
+            "email": "ar_mohammady@yahoo.com"
+        }
+    ]
+}
