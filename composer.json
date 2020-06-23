@@ -3,7 +3,20 @@
     "description": "Composer package for using smspanel in Laravel 7",
     "type": "library",
     "require": {
-        "laravel/framework": "7.x"
+        "laravel/framework": ">=7.x",
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alirmohammadi\\SmsPanel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alirmohammadi\\SmsPanel\\SmsPanelServiceProvider"
+            ]
+        }
     },
     "license": "MIT",
     "authors": [
